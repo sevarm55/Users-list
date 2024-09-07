@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+/* header */
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #00bfff;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header button {
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header button:active {
+	transform: scale(0.9);
+}
+
+.header button:hover {
+	background: red;
+	color: #ffffff;
+}
+
+/* table */
+
+.list {
+	padding: 0px 10px 20px 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
+
+thead {
+	background-color: #f4f4f4;
+}
+
+td {
+	border: 1px solid #ddd;
+	padding: 8px 15px;
+}
+
+th {
+	border: 1px solid #ddd;
+	padding: 1px 13px;
+}
+
+th:first-child,
+td:first-child {
+	width: 1%;
+}
+
+th,
+td:not(:first-child) {
+	width: 22.5%;
+}
+
+tbody tr:hover {
+	background-color: #f1f1f1;
+}
+
+td button {
+	padding: 4px 20px;
+	border: none;
+	background: rgb(239, 118, 118);
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+td button:active {
+	transform: scale(0.9);
+}
+
+
+/* fomr */
+
+.addUser {
+	width: 100%;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.form {
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	display: grid;
+	gap: 15px;
+}
+
+.grid-col-span-2 {
+	grid-column: span 1;
+}
+
+.grid-col-span-3 {
+	grid-column: span 1;
+}
+
+.label {
+	width: 100%;
+	height: 70px;
+	font-size: 15px;
+}
+
+.label .errorBorder {
+	border: 1px solid #e02b1d;
+	background: #fff1f0;
+}
+
+.label input {
+	width: 100%;
+	padding: 9px 10px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid grey;
+	outline: none;
+	font-size: 16px;
+}
+
+.label p {
+	font-size: 13px;
+	color: red;
+}
+
+.form button {
+	width: 40%;
+	padding: 10px;
+	background: #00bfff;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.form button:active {
+	transform: scale(0.9);
+}
+
+.form:last-child {
+	align-items: center;
+}
+
+.form button:hover {
+	background: rgb(168, 233, 255);
+}
+
+.themes {
+	background-color: red;
+}

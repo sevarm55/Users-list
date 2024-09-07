@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Lionel Messi",
+      "username": "lmessi10",
+      "age": 36,
+      "login": "lmessi10@gmail.com",
+      "password": "goat2024"
+    },
+    {
+      "id": "2",
+      "name": "Cristiano Ronaldo",
+      "username": "cronaldo7",
+      "age": 39,
+      "login": "cronaldo7@gmail.com",
+      "password": "legend7"
+    },
+    {
+      "id": "3",
+      "name": "Neymar Jr",
+      "username": "njr10",
+      "age": 32,
+      "login": "njr10@gmail.com",
+      "password": "samba10"
+    },
+    {
+      "id": "4",
+      "name": "Kylian Mbappe",
+      "username": "kmbappe7",
+      "age": 25,
+      "login": "kmbappe7@gmail.com",
+      "password": "speed7"
+    },
+    {
+      "id": 5,
+      "name": "Kevin De Bruyne",
+      "username": "kdb17",
+      "age": 32,
+      "login": "kdb17@gmail.com",
+      "password": "vision17"
+    }
+  ]
+}
